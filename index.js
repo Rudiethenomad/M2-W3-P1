@@ -127,9 +127,11 @@ console.log (check3and7(5));
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
 */
-
-/* WRITE YOUR ANSWER HERE */
-
+let reverseString = function (str)
+{
+    return str.split("").reverse("").join("");
+}
+console.log (reverseString("knowWhereToRun"));
 /* EXERCISE 8
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
