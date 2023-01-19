@@ -144,11 +144,24 @@ console.log (reverseString("knowWhereToRun"));
 
 /* WRITE YOUR ANSWER HERE */
 
+
+
 /* EXERCISE 10
  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
 */
+//use math.random
 
-/* WRITE YOUR ANSWER HERE */
+const giveMeRandom = function(n)
+
+    {
+        const arr = [];
+        for (let i =0; i <= n; i++)
+        {
+            arr.push(Math.floor(Math.random() * 10));
+        }
+        return arr;
+    }
+console.log (giveMeRandom(7));
 
 /* WHEN YOU ARE FINISHED
  Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework section of today's Eduflow.
