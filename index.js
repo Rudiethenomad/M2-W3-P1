@@ -131,7 +131,7 @@ let reverseString = function (str)
 {
     return str.split("").reverse("").join("");
 }
-console.log (reverseString("knowWhereToRun"));
+console.log (reverseString("eMnOknirDAevaH"));
 /* EXERCISE 8
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
@@ -142,8 +142,12 @@ console.log (reverseString("knowWhereToRun"));
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
 
-/* WRITE YOUR ANSWER HERE */
+const cutString = function(str)
+{
+    return str.slice(1, str.length -1);
 
+};
+console.log(cutString("ToSmokeFree"));
 
 
 /* EXERCISE 10
