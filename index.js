@@ -136,8 +136,15 @@ console.log (reverseString("eMnOknirDAevaH"));
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* 
+const upperFirst = function (str)
+{
+    for (let i = 0; i <  ; i++)
+    {
 
+    }
+}
+*/
 /* EXERCISE 9
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
